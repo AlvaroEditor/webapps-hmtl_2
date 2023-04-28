@@ -1,0 +1,39 @@
+p {
+    color: blue;
+    background-color: #fafafa;
+    margin: 50px 30px 20px 100px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+pre {
+    background-color: rgb(190, 189, 189);
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.747);
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+pre,
+code {
+    font-size: 10.5pt;
+    font-family: 'Iosevka Term', monospace;
+    color: brown;
+}
+
+h2 code {
+    font-size: 16pt;
+}
+
+p a {
+    color: green;
+}
+article:first-child p a {
+    color: orange;
+}
